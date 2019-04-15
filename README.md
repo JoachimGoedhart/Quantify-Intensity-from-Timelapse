@@ -7,7 +7,8 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 
 #### Install the ImageJ macro file "Subtract_Measured_Background.ijm"
 
-* _Plugins > Install Plugin.._
+* Download the ImageJ macro file "Subtract_Measured_Background.ijm" (available in this repository)
+* Install it as a plugin: _Plugins > Install Plugin..._
 * The Plugin is installed in the drop-down menu Plugins as _Subtract Measured Background_.
 
 #### Set Measurements
