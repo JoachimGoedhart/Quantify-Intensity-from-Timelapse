@@ -1,6 +1,6 @@
 # Quantify-Intensity-from-Timelapse
 
-__About__: Step-by-step instruction to quantify fluorescence intensities from timelapse imaging experiments
+Step-by-step instruction to quantify fluorescence intensities from timelapse imaging experiments
 
 
 ## Preparations
