@@ -20,11 +20,11 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 * Set the "File extension for tables" to .csv
 * In the "Results Table Options" make sure that "Save column headers" and "Save row numbers" are selected
 
+## Analysis
+
 #### Open the image sequence
 * If the images are individually saved use: _File > Import > Image Sequence..._
 * If the images are saved as a single file, use the right file import option
-
-## Analysis
 
 ### Define and subtract background
 * Use an ROI to define an area with background fluorescence in the image
