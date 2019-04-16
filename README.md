@@ -43,6 +43,6 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 
 ### Plot the result
 
-* Open csv in [PlotTwist](https://huygens.science.uva.nl/PlotTwist/) by using the "Upload" option
-* Optionally apply "Normalization"
+* Open the csv file with results from the quantification in [PlotTwist](https://huygens.science.uva.nl/PlotTwist/) by using the "Upload" option
+* Optionally apply "Normalization" in PlotTwist
 
