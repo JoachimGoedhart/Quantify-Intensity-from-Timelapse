@@ -47,10 +47,10 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 * PlotTwist has the option to apply normalization of the data
 * PlotTwist has the option to exclude data from user selected cells
 
-### Sample data and expected results
-* Raw sample data is available in this repository
-* Background corrected data is available together with the ROIs and the results of the measurements
-* The graph of the example data generated with PlotTwist may look like this:
+## Sample data and expected results
+* Raw sample data is available in this [repository](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/tree/master/Example-data_raw)
+* Background corrected data together with the ROIs and the results of the measurement is available in this [repository](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/tree/master/Example-data_processed)
+* The graph of the example data generated with PlotTwist looks like this:
 
 
 ![alt text](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/blob/master/Example-data_processed/PlotTwist-results.png "Output")
