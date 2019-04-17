@@ -1,6 +1,6 @@
 # Quantify Intensity from Timelapse
 
-Step-by-step instruction to quantify fluorescence intensities from timelapse imaging experiments
+Step-by-step instruction to quantify fluorescence intensities from timelapse imaging experiments using open source software (ImageJ and PlotTwist)
 
 
 ## Preparations
@@ -23,7 +23,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 ## Analysis
 
 #### Open the image sequence
-* If the images are individually saved use: _File > Import > Image Sequence..._
+* If the images are individually saved (as in the example data) use: _File > Import > Image Sequence..._
 * If the images are saved as a single file, use the right file import option
 
 ### Define and subtract background
@@ -46,4 +46,19 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 * Open the csv file with results from the quantification in [PlotTwist](https://huygens.science.uva.nl/PlotTwist/) by using the "Upload" option
 * PlotTwist has the option to apply normalization of the data
 * PlotTwist has the option to exclude data from user selected cells
+
+### Sample data and expected results
+* Raw sample data is available in this repository
+* Background corrected data is available together with the ROIs and the results of the measurements
+* The graph of the example data generated with PlotTwist may look like this:
+
+
+![alt text](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/blob/master/PlotTwist-results.png "Output")
+
+
+
+
+
+
+
 
