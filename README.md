@@ -53,7 +53,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 * The graph of the example data generated with PlotTwist may look like this:
 
 
-![alt text](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/blob/master/PlotTwist-results.png "Output")
+![alt text](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/blob/master/Example-data_processed/PlotTwist-results.png "Output")
 
 
 
