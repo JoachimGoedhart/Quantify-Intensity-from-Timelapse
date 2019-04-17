@@ -26,11 +26,11 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 * If the images are individually saved (as in the example data) use: _File > Import > Image Sequence..._
 * If the images are saved as a single file, use the right file import option
 
-### Define and subtract background
+#### Define and subtract background
 * Use an ROI to define an area with background fluorescence in the image
 * Use _Subtract Measured Background_ to remove the average value of the ROI from the image (this action will be performed on each image in the stack)
 
-### Select and analyze cells
+#### Select and analyze cells
 
 * Set the measurements to only measure mean gray values: _Analyze > Set Measurements..._ select _Mean gray value_
 * Activate the ROI manager: _Analyze > Tools > ROI Manager..._
@@ -41,7 +41,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 * Measure in all ROIs the mean gray value: _More > Multi Measure_ (select "Measure all slices"" and "One row per slice")
 * Save the table with results (csv format).
 
-### Plot the result
+#### Plot the result
 
 * Open the csv file with results from the quantification in [PlotTwist](https://huygens.science.uva.nl/PlotTwist/) by using the "Upload" option
 * PlotTwist has the option to apply normalization of the data
