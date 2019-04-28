@@ -34,7 +34,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 
 * Set the measurements to only measure mean gray values: _Analyze > Set Measurements..._ select _Mean gray value_
 * Activate the ROI manager: _Analyze > Tools > ROI Manager..._
-* Draw an ROI in the image sequence to select a cell, add to ROI manager ("Add [t]")
+* Draw an ROI in the image sequence to select a cell (try to exclude background), add to ROI manager ("Add [t]")
 * Repeat the selection of cells with ROIs until all cells are marked
 * Save the set of ROIs (_More... > Save..._)
 * Select all ROIs in the ROI manager
