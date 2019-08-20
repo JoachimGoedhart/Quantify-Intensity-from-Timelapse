@@ -15,7 +15,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 
 * Set the measurements to only measure mean gray values: _Analyze > Set Measurements..._ select _Mean gray value_
 
-#### Set the right options for export
+#### Set the correct options for export
 * Set the options for input/ouput: _Edit > Options > Input/Output..._
 * Set the "File extension for tables" to .csv
 * In the "Results Table Options" make sure that "Save column headers" and "Save row numbers" are selected
@@ -24,7 +24,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 
 #### Open the image sequence
 * If the images are individually saved (as in the example data) use: _File > Import > Image Sequence..._
-* If the images are saved as a single file, use the right file import option
+* If the images are saved as a single file, use the appropriate file import option
 
 #### Define and subtract background
 * Use an ROI to define an area with background fluorescence in the image
@@ -56,9 +56,16 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 ![alt text](https://github.com/JoachimGoedhart/Quantify-Intensity-from-Timelapse/blob/master/Example-data_processed/PlotTwist-results.png "Output")
 
 
+#### (FRET) ratio analysis
 
-
-
+In case of (FRET) emission ratio imaging, two intensity traces are acquired. The traces are acquired at different emission wavelengths (In case of FRET ratio imaging, one is acquired at the emission wavelength of the donor and another acquired at the acceptor wavelength).
+Both intensity traces need to be background corrected (according to the aforementioned procedure). Next, the ratio can be determined in ImageJ:
+* When both image stacks are open, choose _Process > Image Calculator..._
+* Select the stacks with emission data, for instance Image1: stack acquired at the first wavelength and Image2: stack acquired at the second wavelength
+* Choose the operation "Divide"
+* Make sure that the checkbox "Create new window" and "32-bit (float) result" are activated.
+* The result will be a new stack that has the ratiometric data.
+* The ratio changes in this stack can be quantified as described above under "Select and analyze cells"
 
 
 
