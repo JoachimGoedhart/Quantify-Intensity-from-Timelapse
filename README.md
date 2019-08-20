@@ -60,7 +60,7 @@ Step-by-step instruction to quantify fluorescence intensities from timelapse ima
 
 In case of (FRET) emission ratio imaging, two intensity traces are acquired. The traces are acquired at different emission wavelengths (In case of FRET ratio imaging, one is acquired at the emission wavelength of the donor and another acquired at the acceptor wavelength).
 Both intensity traces need to be background corrected (according to the procedure describe above under **Define and subtract background**). Next, a new stack with the ratio data can be obtained in ImageJ:
-* When both image stacks are open, choose _Process > Image Calculator..._
+* When both background corrected image stacks are open, choose _Process > Image Calculator..._
 * Select the stacks with emission data, for instance "Image1:" stack acquired at the first wavelength, "Image2:" stack acquired at the second wavelength
 * Choose the operation "Divide"
 * Make sure that the checkboxes "Create new window" and "32-bit (float) result" are activated.
