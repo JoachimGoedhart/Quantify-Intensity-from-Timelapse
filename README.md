@@ -1,6 +1,6 @@
 # Quantify Intensity from Timelapse
 
-Step-by-step instruction to quantify fluorescence intensities from timelapse imaging experiments using open source software (ImageJ and PlotTwist)
+Step-by-step instruction to quantify fluorescence intensities from timelapse imaging experiments using open source software (ImageJ and [PlotTwist](https://huygens.science.uva.nl/PlotTwist/))
 
 
 ## Preparations
